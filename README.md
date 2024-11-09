@@ -9,20 +9,15 @@ Before running the tests, ensure you have the following installed:
 -TestNG (for test execution and reporting)
 -Gradle (for project build and execution)
 ## How to Run the Project?
-1.Clone the repository:
-Copy code
--git clone https://github.com/Noor-Afida-Annha/OrangeHRM-Demo-automation-by-TestNG.git
-2.Navigate to the project directory:
-Copy code
--cd OrangeHRM-Demo-automation-by-TestNG
-3.Build and run the tests using Gradle:
-Copy code
--./gradlew test
-4.View the test results in the allure-results directory.
+#### Clone the repository:
+-```git clone https://github.com/Noor-Afida-Annha/OrangeHRM-Demo-automation-by-TestNG.git```
+#### Navigate to the project directory:
+-```cd OrangeHRM-Demo-automation-by-TestNG```
+#### Build and run the tests using Gradle:
+-```./gradlew test```
+#### View the test results in the allure-results directory.
 ## Running Specific Commands
-1.To run the tests with Gradle:
-Copy code
+#### To run the tests with Gradle:
 -```gradle clean test```
-2.To generate Allure reports after the tests:
-Copy code
+#### To generate Allure reports after the tests:
 -```allure serve allure-results```
