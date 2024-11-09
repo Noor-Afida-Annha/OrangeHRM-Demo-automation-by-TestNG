@@ -18,6 +18,7 @@ Before running the tests, ensure you have the following installed:
 #### View the test results in the allure-results directory.
 ## Running Specific Commands
 #### To run the tests with Gradle:
--```gradle clean test```
+-```gradle clean test -Psuitename="smokeSuite.xml"``` or
+-```gradle clean test -Psuitename="regressionSuite.xml"```
 #### To generate Allure reports after the tests:
 -```allure serve allure-results```
